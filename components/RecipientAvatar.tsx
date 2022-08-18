@@ -9,8 +9,8 @@ const StyledAvatar = styled(Avatar)`
 `
 
 const RecipientAvatar = ({ recipient, recipientEmail }: Props) => {
-	return recipient?.photoUrl ? (
-		<StyledAvatar src={recipient.photoUrl} />
+	return recipient?.photoURL ? (
+		<StyledAvatar src={recipient.photoURL} />
 	) : (
 		<StyledAvatar>
 			{recipientEmail && recipientEmail[0].toUpperCase()}
