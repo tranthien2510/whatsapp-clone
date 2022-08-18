@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             email: loggedInUser?.email,
             lastSeen: serverTimestamp(),
-            photoUrl: loggedInUser?.photoURL
+            photoURL: loggedInUser?.photoURL
           },
           {merge:true} // just update what is changed 
         )
