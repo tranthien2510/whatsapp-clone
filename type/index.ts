@@ -7,7 +7,7 @@ export interface Conversation {
 export interface AppUser{
     email: string;
     lastSeen: Timestamp;
-    photoURL: string;
+    photoUrl: string;
 }
 
 export interface IMessage{
